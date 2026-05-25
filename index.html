@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yazar Blogu</title>
+  <title>Gönül Defteri</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,199 +17,198 @@
   <div class="container nav">
 
     <div class="logo">
-      YAZAR BLOG
+      Gönül Defteri
     </div>
 
     <nav>
       <a href="#">Ana Sayfa</a>
       <a href="#">Yazılar</a>
-      <a href="#">Analiz</a>
-      <a href="#">Dünya</a>
+      <a href="#">Sanat</a>
+      <a href="#">Atölye</a>
       <a href="#">İletişim</a>
     </nav>
-
-    <button id="menuBtn">☰</button>
 
   </div>
 
 </header>
 
-<!-- SLIDER -->
+<!-- HERO SLIDER -->
 
-<section class="featured-slider">
+<section class="hero-slider">
 
-  <div class="slider">
+  <div class="slide active">
 
-    <div class="slide active">
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1600&auto=format&fit=crop">
 
-      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1600&auto=format&fit=crop">
+    <div class="overlay"></div>
 
-      <div class="slide-content">
-        <span>Gündem</span>
-        <h2>Küresel Gelişmeler ve Medya</h2>
-        <p>
-          Dünya gündemi, medya etkileri ve özel analizler.
-        </p>
-      </div>
+    <div class="slide-content">
 
-    </div>
+      <span>Sanat ve Hayat</span>
 
-    <div class="slide">
+      <h1>
+        Bazı renkler insanın ruhuna dokunur
+      </h1>
 
-      <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1600&auto=format&fit=crop">
-
-      <div class="slide-content">
-        <span>Analiz</span>
-        <h2>Dijital Çağın Yeni Düzeni</h2>
-        <p>
-          Teknoloji, toplum ve medya dönüşümü üzerine özel yazılar.
-        </p>
-      </div>
+      <p>
+        Sanat, bazen insanın içindeki sessizliği anlatma biçimidir.
+      </p>
 
     </div>
 
-    <div class="slide">
+  </div>
 
-      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop">
+  <div class="slide">
 
-      <div class="slide-content">
-        <span>Dünya</span>
-        <h2>Ekonomi ve Yeni Dünya</h2>
-        <p>
-          Uluslararası ilişkiler ve ekonomik dönüşüm değerlendirmeleri.
-        </p>
-      </div>
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop">
+
+    <div class="overlay"></div>
+
+    <div class="slide-content">
+
+      <span>Öğretmen Notları</span>
+
+      <h1>
+        Bir öğrencinin gözündeki merak en güzel tablodur
+      </h1>
+
+      <p>
+        Çocukların hayal gücü bazen dünyayı değiştirebilir.
+      </p>
 
     </div>
 
-    <button class="prev">❮</button>
-    <button class="next">❯</button>
+  </div>
+
+  <div class="slide">
+
+    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1600&auto=format&fit=crop">
+
+    <div class="overlay"></div>
+
+    <div class="slide-content">
+
+      <span>Yazılar</span>
+
+      <h1>
+        Sessizlik bazen en güçlü cümledir
+      </h1>
+
+      <p>
+        Hayatın küçük detayları üzerine içten notlar.
+      </p>
+
+    </div>
+
+  </div>
+
+  <button class="prev">❮</button>
+  <button class="next">❯</button>
+
+</section>
+
+<!-- BLOG -->
+
+<section class="blog-section container">
+
+  <div class="section-title">
+    Son Yazılar
+  </div>
+
+  <div class="blog-grid">
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="card-content">
+
+        <span>Sanat</span>
+
+        <h2>Suluboya ve Sabır</h2>
+
+        <p>
+          Hayat bazen suluboya gibidir; acele edersen renkler birbirine karışır.
+        </p>
+
+        <a href="#">Devamını Oku</a>
+
+      </div>
+
+    </article>
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="card-content">
+
+        <span>Hayat</span>
+
+        <h2>Küçük Anların Gücü</h2>
+
+        <p>
+          İnsan bazen en büyük huzuru küçük bir kahve molasında bulur.
+        </p>
+
+        <a href="#">Devamını Oku</a>
+
+      </div>
+
+    </article>
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="card-content">
+
+        <span>Öğretmenlik</span>
+
+        <h2>Bir Çocuğun Hayali</h2>
+
+        <p>
+          Öğretmek bazen sadece bilgi vermek değil, umut olmaktır.
+        </p>
+
+        <a href="#">Devamını Oku</a>
+
+      </div>
+
+    </article>
 
   </div>
 
 </section>
 
-<!-- MAIN -->
+<!-- ABOUT -->
 
-<main class="container main-grid">
+<section class="about container">
 
-  <!-- POSTS -->
+  <div class="about-image">
 
-  <section class="posts">
+    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=900&auto=format&fit=crop">
 
-    <article class="card">
+  </div>
 
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop">
+  <div class="about-content">
 
-      <div class="card-content">
+    <h2>Yazar Hakkında</h2>
 
-        <span class="tag">Gündem</span>
+    <p>
+      Yıllardır çocuklara sanat anlatırken aslında hayatı yeniden öğreniyorum.
+      Bu blog; sanatın, sessizliğin ve insan ruhunun küçük notlarını paylaşmak için kuruldu.
+    </p>
 
-        <h2>Yeni Dünya Düzeninde Medya</h2>
+  </div>
 
-        <p>
-          Küresel medya yapısı ve bilgi akışının toplum üzerindeki etkileri.
-        </p>
+</section>
 
-        <a href="#">Devamını Oku</a>
+<!-- WHATSAPP -->
 
-      </div>
-
-    </article>
-
-    <article class="card">
-
-      <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1400&auto=format&fit=crop">
-
-      <div class="card-content">
-
-        <span class="tag">Analiz</span>
-
-        <h2>Teknoloji ve İnsanlık</h2>
-
-        <p>
-          Yapay zekâ çağında insan psikolojisi ve toplumsal dönüşüm.
-        </p>
-
-        <a href="#">Devamını Oku</a>
-
-      </div>
-
-    </article>
-
-    <article class="card">
-
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop">
-
-      <div class="card-content">
-
-        <span class="tag">Dünya</span>
-
-        <h2>Küresel Ekonomi Notları</h2>
-
-        <p>
-          Finans, enerji ve uluslararası dengeler üzerine değerlendirmeler.
-        </p>
-
-        <a href="#">Devamını Oku</a>
-
-      </div>
-
-    </article>
-
-  </section>
-
-  <!-- SIDEBAR -->
-
-  <aside class="sidebar">
-
-    <div class="widget profile">
-
-      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=500&auto=format&fit=crop">
-
-      <h3>Yazar Hakkında</h3>
-
-      <p>
-        Gazetecilik, dünya gündemi ve toplumsal analizler üzerine yazılar.
-      </p>
-
-    </div>
-
-    <div class="widget">
-
-      <h3>Kategoriler</h3>
-
-      <ul>
-        <li>Gündem</li>
-        <li>Dünya</li>
-        <li>Analiz</li>
-        <li>Ekonomi</li>
-        <li>Teknoloji</li>
-      </ul>
-
-    </div>
-
-    <div class="widget">
-
-      <h3>Bülten</h3>
-
-      <input type="email" placeholder="E-posta adresiniz">
-
-      <button>Abone Ol</button>
-
-    </div>
-
-  </aside>
-
-</main>
-
-<footer>
-
-  <p>
-    © 2026 Yazar Blog — Tüm Hakları Saklıdır.
-  </p>
-
-</footer>
+<a href="https://wa.me/905551112233" class="whatsapp">
+  WhatsApp
+</a>
 
 <script src="script.js"></script>
 
